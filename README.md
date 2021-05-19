@@ -64,6 +64,7 @@ Provided parameters are:
  * `coa_phase`: The coalescence phase of the binary system.
  * `loglikelihood`: The natural log of the likelihood of each sample.
 
+For GW190521_030229, uniform prior in source frame total mass and mass ratio `q` is used. A script is used to reweight the samples to a prior uniform in component masses. For this particular event, we provide posterior files and config files for another set of run where localization (ra,dec,distance) is fixed in accordance with possible coincidence with accretion flare by the Zwicky Transient Facility (ZTF).
 ## Catalog of Merger Candidates (including sub-threshold candidates) ##
 
 ### Analysis Details ###
