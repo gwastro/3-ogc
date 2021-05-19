@@ -5,7 +5,21 @@
 <sub>2. Leibniz Universitat Hannover, D-30167 Hannover, Germany</sub>  
 <sub>3. Department of Physics and Astronomy, The University of British Columbia, Vancouver, BC V6T 1Z4, Canada </sub>
 
+## Introduction
 
+We present the third Open Gravitational-wave Catalog (3-OGC) of compact-binary coalescences,
+based on the analysis of the public LIGO and Virgo data from 2015 through 2019 (O1, O2, O3a). Our
+updated catalog includes a population of 57 observations, including four binary black hole mergers that
+had not previously been reported. This consists of 55 binary black hole mergers and the two binary
+neutron star mergers GW170817 and GW190425. We find no additional significant binary neutron
+star or neutron star–black hole merger events. The most confident new detection is the binary black
+hole merger GW190925 232845 which was observed by the LIGO Hanford and Virgo observatories
+with Pastro > 0.99; its primary and secondary component masses are 20.2+3.9−2.5Msun and 15.6+2.1−2.6Msun,
+respectively. We estimate the parameters of all binary black hole events using an up-to-date waveform
+model that includes both sub-dominant harmonics and precession effects. To enable deep follow-up as
+our understanding of the underlying populations evolves, we make available our comprehensive catalog
+of events, including the sub-threshold population of candidates, and the posterior samples of our source
+parameter estimates.
 
 ## [Parameter Estimates for the 55 BBH and 2 BNS detections] ##
 Posteriors sample for the 55 most significant BBH and 2 BNS candidates are located in the ['posterior_samples'](https://github.com/gwastro/3-ogc/tree/master/posterior_samples) folder. A summary of the parameter estimation results may be found here:
