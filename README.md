@@ -50,5 +50,4 @@ Provided parameters are:
    corresponds to a face-on (face-away) orientation.
  * `coa_phase`: The coalescence phase of the binary system.
  * `loglikelihood`: The natural log of the likelihood of each sample.
- * `logprior`: The natural log of the prior of each sample.
- * `logjacobian`: The natural log of the Jacobian between the parameter space and the sampling parameter-space that was used.
+
