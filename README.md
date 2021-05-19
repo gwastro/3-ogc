@@ -15,15 +15,14 @@ Posteriors sample for the 55 most significant BBH and 2 BNS candidates are locat
  
  ```
 >>> import h5py
->>> a = h5py.File('./GW190925_232845-PYCBC-POSTERIOR-XPHM.hdf', 'r')
->>> a.keys()
-<KeysViewHDF5 ['samples']>
->>> a['samples']
-<HDF5 group "/samples" (21 members)>
->>> a['samples'].keys()
-<KeysViewHDF5 ['chi_eff', 'chi_p', 'coa_phase', 'dec', 'delta_tc', 'distance', 'inclination', 'loglikelihood', 'logwt', 'q', 'ra', 'redshift', 'spin1_a', 'spin1_azimuthal', 'spin1_polar', 'spin2_a', 'spin2_azimuthal', 'spin2_polar', 'srcmass1', 'srcmass2', 'srcmchirp']>
->>> a['samples']['chi_eff']   
-<HDF5 dataset "chi_eff": shape (56604,), type "<f8">
+>>> fp = h5py.File('GW150914_095045-PYCBC-POSTERIOR-XPHM.hdf','r')
+>>> fp.keys()
+[u'samples']
+>>> fp['samples'].keys()
+[u'chi_eff', u'chi_p', u'coa_phase', u'dec', u'delta_tc', u'distance', u'inclination', u'loglikelihood', u'logwt', u'q', u'ra', u'redshift', u'spin1_a', u'spin1_azimuthal', u'spin1_polar', u'spin2_a', u'spin2_azimuthal', u'spin2_polar', u'srcmass1', u'srcmass2', u'srcmchirp', u'srcmtot']
+>>> fp['samples/srcmass1'][:]
+array([36.1643739 , 32.75384643, 35.34795668, ..., 32.38363066,
+       35.48601188, 37.46221438])
 ```
 
 Provided parameters are:
