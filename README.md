@@ -7,8 +7,8 @@
 
 
 
-## [Parameter Estimates for top 55 BBH candidates] ##
-Posteriors sample for the 55 most significant BBH candidates are located in the ['posterior_samples'](https://github.com/gwastro/3-ogc/tree/master/posterior_samples) folder. A summary of the parameter estimation results may be found here:
+## [Parameter Estimates for top 55 BBH and 2 BNS candidates] ##
+Posteriors sample for the 55 most significant BBH and 2 BNS candidates are located in the ['posterior_samples'](https://github.com/gwastro/3-ogc/tree/master/posterior_samples) folder. A summary of the parameter estimation results may be found here:
  
  * BBH summary page:
  The posterior samples are in the `samples` group in the posterior data hdf files. These may be read in a python environment using an installation of h5py. For example,
