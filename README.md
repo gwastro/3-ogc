@@ -30,6 +30,7 @@ Provided parameters are:
  * `srcmass1`: The source-frame mass of the larger object, in solar masses.
  * `srcmass2`: The source-frame mass of the smaller object, in solar masses.
  * `srcmchirp`: The source-frame chirp mass, in solar masses.
+ * `q`: The mass ratio, larger object mass to smaller object mass.
  * `chi_eff`: The effective spin of the binary.
  * `chi_p`: The precessing-spin parameter of the binary.
  * `spin1_a`: The dimensionless spin-magnitude of the larger object.
@@ -47,7 +48,7 @@ Provided parameters are:
  * `inclination`: The inclination of the binary's orbital angular momentum with
    respect to the line of sight, in radians. An inclination of 0 (pi)
    corresponds to a face-on (face-away) orientation.
- * `polarization`: The polarization angle of the gravitational wave.
+ * `coa_phase`: The coalescence phase of the binary system.
  * `loglikelihood`: The natural log of the likelihood of each sample.
  * `logprior`: The natural log of the prior of each sample.
  * `logjacobian`: The natural log of the Jacobian between the parameter space and the sampling parameter-space that was used.
