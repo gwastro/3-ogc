@@ -22,7 +22,7 @@ of events, including the sub-threshold population of candidates, and the posteri
 parameter estimates.
 
 ## [Parameter Estimates for the 55 BBH and 2 BNS detections] ##
-Posteriors sample for the 55 most significant BBH and 2 BNS candidates are located in the ['posterior_samples'](https://github.com/gwastro/3-ogc/tree/master/posterior_samples) folder. A summary of the parameter estimation results may be found here:
+Posteriors sample for the 55 most significant BBH and 2 BNS candidates are located in the ['posterior_samples'](https://github.com/gwastro/3-ogc/tree/master/posterior) folder. A summary of the parameter estimation results may be found here:
  
  * BBH summary page:
  The posterior samples are in the `samples` group in the posterior data hdf files. These may be read in a python environment using an installation of h5py. For example,
