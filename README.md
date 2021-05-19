@@ -50,3 +50,65 @@ Provided parameters are:
  * `coa_phase`: The coalescence phase of the binary system.
  * `loglikelihood`: The natural log of the likelihood of each sample.
 
+## Catalog of Merger Candidates (including sub-threshold candidates) ##
+
+### Analysis Details ###
+Details of the analysis are available in this [preprint paper]() and the configuration files needed to create the analysis workflows are provided in the [search_configs](https://github.com/gwastro/3-ogc/tree/master/search_configuration) directory.
+
+The files 3-OGC_top.txt and 3-OGC_sub17.txt are text format version of the tables in the paper. For more complete listings of candidates see the following.
+
+### Accessing the Catalog: 3-OGC_low.hdf, 3-OGC_high.hdf ###
+
+The complete catalog with subthreshold candidates included is split between two files (due to github files size limits). The 'low' file includes 
+candidates triggered with a template that has m1 + m2 < 6, the remainder are in the file postfixed 'high'. The formate is otherwise the same.
+
+```python
+import h5py
+
+catalog_high = h5py.File('./3-OGC_low.hdf', 'r')
+
+# Selecting parts of the catalog
+region = candidates['mass1'][:] + candidates['mass2'][:] < 4
+lowmass_snr = all_candidates['H1_snr'][:][region]
+```
+
+
+##### File format #####
+Both datasets are structured arrays which have the following named columns. Some of these columns give information specific to either the 
+LIGO Hanford, LIGO Livingston or Virgo detectors. Where this is the case, the name of the column is prefixed with either a `H1`, `L1`, or 'V1'.
+
+| Key           | Description                                                                                                                         |
+|---------------|-------------------------------------------------------------------------------------------------------------------------------------|
+| name          | The designation of the candidate event. This is of the form 150812_122304 ('GW is not prefixed even to confident mergers').                                                     |
+| IFAR           | The rate of false alarms with a ranking statistic as large or larger than this event. The unit is yr^-1.                                                                                                           |
+| stat          | The value of the ranking statistic for this candidate event.                                                                                       |
+| mass1         | The component mass of one compact object in the template waveform which found this candidate. Units in detector frame solar masses. |
+| mass2         | The component mass of the template waveform which found this candidate. Units in detector frame solar masses.                       |
+| spin1z        | The dimensionless spin of one of the compact objects for the template waveform which found this candidate.                                                                                                                                  |
+| spin2z        | The dimensionless spin of one of the compact objects for the template waveform which found this candidate.                                                                                                                                    |
+| {H1/L1/V1}_end_time   | The time in GPS seconds when a fiducial point in the signal passes throught the detector. Typically this is near the time of merger.                                                                                                                              |                                                                                                                           |
+| {H1/L1/V1}_snr        | The amplitude of the complex matched filter signal-to-noise observed.                                                                                                                                    |                                                      |
+| {H1/L1/V1}_chisq |  Value of the signal consistency test defined in this [paper](https://arxiv.org/abs/gr-qc/0405045). This is not calculated for all candidate events. In this case a value of 0 is substituted.                                                                                                                                  |
+| {H1/L1/V1}_sg_chisq      |  Value of the signal consistency test defined in this [paper](https://arxiv.org/abs/1709.08974). This is not calculated for all candidate events. In this case a value of 1 is substituted.                                                                                                                     |
+| pastro |     The probability that this BBH candidate is of astrophysical origin.                                        |
+                     
+
+## License and Citation
+
+![Creative Commons License](https://i.creativecommons.org/l/by-sa/3.0/us/88x31.png "Creative Commons License")
+
+This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 United States License](http://creativecommons.org/licenses/by-sa/3.0/us/).
+
+We encourage use of these data in derivative works. If you use the material provided here, please cite the paper using the reference:
+
+```
+@article{Nitz:2021,
+      author         = "",
+      title          = "{}",
+      year           = "2019",
+      eprint         = "1910.05331",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.HE",
+      SLACcitation   = "%%CITATION = ARXIV:1910.05331;%%"
+}
+```
