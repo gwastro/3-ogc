@@ -6,7 +6,6 @@
 <sub>3. Department of Physics and Astronomy, The University of British Columbia, Vancouver, BC V6T 1Z4, Canada </sub>
 
 
-## Introduction ##
 
 ## [Parameter Estimates for top 55 BBH candidates] ##
 Posteriors sample for the 55 most significant BBH candidates are located in the ['posterior_samples'](https://github.com/gwastro/3-ogc/tree/master/posterior_samples) folder. A summary of the parameter estimation results may be found here:
@@ -28,8 +27,9 @@ Posteriors sample for the 55 most significant BBH candidates are located in the 
 ```
 
 Provided parameters are:
- * `mass1`: The source-frame mass of the larger object, in solar masses.
- * `mass2`: The source-frame mass of the smaller object, in solar masses.
+ * `srcmass1`: The source-frame mass of the larger object, in solar masses.
+ * `srcmass2`: The source-frame mass of the smaller object, in solar masses.
+ * `srcmchirp`: The source-frame chirp mass, in solar masses.
  * `chi_eff`: The effective spin of the binary.
  * `chi_p`: The precessing-spin parameter of the binary.
  * `spin1_a`: The dimensionless spin-magnitude of the larger object.
@@ -51,32 +51,3 @@ Provided parameters are:
  * `loglikelihood`: The natural log of the likelihood of each sample.
  * `logprior`: The natural log of the prior of each sample.
  * `logjacobian`: The natural log of the Jacobian between the parameter space and the sampling parameter-space that was used.
-
-The samples group `attrs` (accessed via `fp['samples'].attrs`) contains the log of the likelihood assuming the noise hypothesis (`lognl`). Subtracting this from the `loglikelihood` gives the log of the likelihood ratio at each point. The `attrs` of the HDF files (accessed via `fp.attrs`) also contain metadata about the run.
-
-
-##### File format #####
-Both datasets are structured arrays which have the following named columns. Some of these columns give information specific to either the 
-LIGO Hanford, LIGO Livingston or Virgo detectors. Where this is the case, the name of the column is prefixed with either a `H1`, `L1`, or 'V1'.
-
-| Key           | Description                                                                                                                         |
-|---------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| name          | The designation of the candidate event. This is of the form 150812+12:23:04UTC.                                                     |
-| far           | The rate of false alarms with a ranking statistic as large or larger than this event. The unit is yr^-1.                                                                                                           |
-| stat          | The value of the ranking statistic for this candidate event.                                                                                       |
-| mass1         | The component mass of one compact object in the template waveform which found this candidate. Units in detector frame solar masses. |
-| mass2         | The component mass of the template waveform which found this candidate. Units in detector frame solar masses.                       |
-| spin1z        | The dimensionless spin of one of the compact objects for the template waveform which found this candidate.                                                                                                                                  |
-| spin2z        | The dimensionless spin of one of the compact objects for the template waveform which found this candidate.                                                                                                                                    |
-| {H1/L1/V1}_end_time   | The time in GPS seconds when a fiducial point in the signal passes throught the detector. Typically this is near the time of merger.                                                                                                                              |                                                                                                                           |
-| {H1/L1/V1}_snr        | The amplitude of the complex matched filter signal-to-noise observed.                                                                                                                                    |
-| {H1/L1/V1}_coa_phase        | The phase (angle) of the complex matched filter signal-to-noise observed.                                                          |
-| {H1/L1/V1}_reduced_chisq |  Value of the signal consistency test defined in this [paper](https://arxiv.org/abs/gr-qc/0405045). This is not calculated for all candidate events. In this case a value of 0 is substituted.                                                                                                                                  |
-| {H1/L1/V1}_sg_chisq      |  Value of the signal consistency test defined in this [paper](https://arxiv.org/abs/1709.08974). This is not calculated for all candidate events. In this case a value of 1 is substituted.                                                                                                                     |
-| {H1/L1/V1}_sigmasq       |   The integral of the template waveform divided by the power spectral density.
-
-The `/bbh` dataset also has the following additional column.
-
-| Key           | Description                                                                                                                         |
-|---------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| pastro |     The probability that this BBH candidate is of astrophysical origin.                                        |
