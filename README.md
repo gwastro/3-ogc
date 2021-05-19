@@ -7,7 +7,7 @@
 
 
 
-## [Parameter Estimates for top 55 BBH and 2 BNS candidates] ##
+## [Parameter Estimates for the 55 BBH and 2 BNS detections] ##
 Posteriors sample for the 55 most significant BBH and 2 BNS candidates are located in the ['posterior_samples'](https://github.com/gwastro/3-ogc/tree/master/posterior_samples) folder. A summary of the parameter estimation results may be found here:
  
  * BBH summary page:
