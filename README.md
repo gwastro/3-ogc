@@ -68,7 +68,7 @@ For GW190521_030229, uniform prior in source frame total mass and mass ratio `q`
 ## Catalog of Merger Candidates (including sub-threshold candidates) ##
 
 ### Analysis Details ###
-Details of the analysis are available in this [preprint paper]() and the configuration files needed to create the analysis workflows are provided in the [search_configs](https://github.com/gwastro/3-ogc/tree/master/search_configuration) directory.
+Details of the analysis are available in this [preprint paper](https://arxiv.org/abs/2105.09151) and the configuration files needed to create the analysis workflows are provided in the [search_configs](https://github.com/gwastro/3-ogc/tree/master/search_configuration) directory.
 
 The files 3-OGC_top.txt and 3-OGC_sub17.txt are text format version of the tables in the paper. For more complete listings of candidates see the following.
 
@@ -117,13 +117,13 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unite
 We encourage use of these data in derivative works. If you use the material provided here, please cite the paper using the reference:
 
 ```
-@article{Nitz:2021,
-      author         = "",
-      title          = "{}",
-      year           = "2019",
-      eprint         = "1910.05331",
-      archivePrefix  = "arXiv",
-      primaryClass   = "astro-ph.HE",
-      SLACcitation   = "%%CITATION = ARXIV:1910.05331;%%"
+@article{Nitz:2021uxj,
+    author = {Nitz, Alexander H. and Capano, Collin D. and Kumar, Sumit and Wang, Yi-Fan and Kastha, Shilpa and Sch\"afer, Marlin and Dhurkunde, Rahul and Cabero, Miriam},
+    title = "{3-OGC: Catalog of gravitational waves from compact-binary mergers}",
+    eprint = "2105.09151",
+    archivePrefix = "arXiv",
+    primaryClass = "astro-ph.HE",
+    month = "5",
+    year = "2021"
 }
 ```
