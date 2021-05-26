@@ -92,6 +92,9 @@ lowmass_snr = all_candidates['H1_snr'][:][region]
 Both datasets are structured arrays which have the following named columns. Some of these columns give information specific to either the 
 LIGO Hanford, LIGO Livingston or Virgo detectors. Where this is the case, the name of the column is prefixed with either a `H1`, `L1`, or 'V1'.
 
+Note: For template parameters and statistics, we report the values associated with the candidate at a given time with the lowest false alarm rate. The search
+can report many candidates for a common single source due to the overlap between its many template waveforms, hence the parameters don't indicate the only template which identified a particular signal.
+
 | Key           | Description                                                                                                                         |
 |---------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | name          | The designation of the candidate event. This is of the form 150812_122304 ('GW is not prefixed even to confident mergers').                                                     |
