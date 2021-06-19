@@ -1,0 +1,835 @@
+<html lang="en">
+
+<head>
+
+    <!-- set initial view -->
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <!-- add jquery -->
+    <script src="../../static/js/jquery/1.10.2/jquery-1.10.2.min.js" type="text/javascript"></script>
+
+    <!-- add mousewheel scrolling -->
+    <script type="text/javascript" src="../../static/js/jquery/1.10.2/jquery.mousewheel-3.0.6.pack.js"></script>
+
+    <!-- add bootstrap -->
+    <link media="all" href="../../static/css/bootstrap/3.3.2/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <script src="../../static/js/bootstrap/3.3.2/bootstrap.min.js" type="text/javascript"></script>
+
+    <!-- add fancybox -->
+    <script type="text/javascript" src="../../static/js/fancybox/2.1.5/jquery.fancybox.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../static/css/fancybox/2.1.5/jquery.fancybox.css" media="screen" />
+
+    <!-- add mathjax -->
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$']]}});
+    </script>
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+
+    <!-- add orange stylization -->
+    <script type="text/javascript" src="../../static/js/fancybox/2.1.5/fancybox-orange.js"></script> 
+    <link media="all" href="../../static/css/pycbc/orange.css" type="text/css" rel="stylesheet">
+
+    <!-- add popover js -->
+    <script> $(function () {$('[data-toggle="popover"]').popover()})</script>
+    <style type="text/css">
+        .popover{
+            max-width:600px;
+        }
+    </style>
+
+    <!-- add expand all js -->
+    <script>
+        $(function () {
+
+            var active = true;
+
+            $('#collapse-init').click(function () {
+                if (active) {
+                    active = false;
+                    $('.panel-collapse').collapse('show');
+                    $('.panel-title').attr('data-toggle', '');
+                    $(this).text('Collapse All');
+                } else {
+                    active = true;
+                    $('.panel-collapse').collapse('hide');
+                    $('.panel-title').attr('data-toggle', 'collapse');
+                    $(this).text('Expand All');
+                }
+            });
+    
+            $('#accordion').on('show.bs.collapse', function () {
+                if (active) $('#accordion .in').collapse('hide');
+            });
+
+        });
+    </script>
+
+    <!-- title -->
+    <title>3-OGC: Catalog of gravitational waves from compact-binarymergers</title>
+
+    <!-- add fonts -->
+    <style>
+    @font-face {
+        font-family : 'Lato';
+        src : url('../../static/fonts/Lato-Light.eot');
+        src : url('../../static/fonts/Lato-Light.eot') format('embedded-opentype'),url('../../static/fonts/Lato-Light.woff') format('woff'),url('../../static/fonts/Lato-Light.ttf') format('truetype');
+        text-rendering : optimizeLegibility;
+    }
+    @font-face{
+        font-family : 'Lato';
+        src : url('../../static/fonts/Lato-Semibold.eot');
+        src : url('../../static/fonts/Lato-Semibold.eot') format('embedded-opentype'),url('../../static/fonts/Lato-Semibold.woff') format('woff'),url('../../static/fonts/Lato-Semibold.ttf') format('truetype');
+        font-weight : bold;
+       text-rendering : optimizeLegibility;
+    }
+    </style>
+
+</head>
+
+<body>
+
+<div id="wrap">
+
+<!-- set dir0 counter integer -->
+
+
+<!-- navbar -->
+<div class="navbar navbar-custom navbar-static-top">
+  <div class="container-fluid">
+
+        <!-- title and subtitle -->
+        <div class="row" style="padding-top:10px">
+            <div class="col-md-4">
+                <p class="text-left">
+                    <img src=https://raw.githubusercontent.com/gwastro/pycbc-logo/master/pycbc_logo_name.png alt="PyCBC logo" style="height:3em;">
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p class="text-center" style="font-size:150%;"><b>3-OGC: Catalog of gravitational waves from compact-binarymergers</b></p>
+                <p class="text-center"></p>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+
+    <!-- button for collapsed navbar -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- buttons on navbar -->
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+
+        <!-- always have a button to the top-level directory -->
+        <li class="active"><a href="../../">Summary</a></li>
+
+        <!-- display top-level directories -->
+        
+        <li class="dropdown ">
+            <a href="#" id="drop1" data-toggle="dropdown" class="dropdown-toggle" role="button">2. Priors<b class="caret"></b></a>
+            <ul role="menu" class="dropdown-menu" aria-labelledby="drop1">
+                <li role="presentation"><a href="../../2._priors" role="menuitem">Summary</a></li>
+                <li class="divider"></li>
+
+                <!-- set subsection counter integer -->
+                
+                    <li role="presentation"><a href="../.././2._priors/2.01_gw150914_095045" role="menuitem">2.01 Gw150914 095045</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.02_gw151012_095443" role="menuitem">2.02 Gw151012 095443</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.03_gw151226_033853" role="menuitem">2.03 Gw151226 033853</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.04_gw170104_101158" role="menuitem">2.04 Gw170104 101158</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.05_gw170121_212536" role="menuitem">2.05 Gw170121 212536</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.06_gw170202_135657" role="menuitem">2.06 Gw170202 135657</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.07_gw170304_163753" role="menuitem">2.07 Gw170304 163753</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.08_gw170403_230611" role="menuitem">2.08 Gw170403 230611</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.09_gw170608_020116" role="menuitem">2.09 Gw170608 020116</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.10_gw170727_010430" role="menuitem">2.10 Gw170727 010430</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.11_gw170729_185629" role="menuitem">2.11 Gw170729 185629</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.12_gw170809_082821" role="menuitem">2.12 Gw170809 082821</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.13_gw170814_103043" role="menuitem">2.13 Gw170814 103043</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.14_gw170817_124104" role="menuitem">2.14 Gw170817 124104</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.15_gw170818_022509" role="menuitem">2.15 Gw170818 022509</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.16_gw170823_131358" role="menuitem">2.16 Gw170823 131358</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.17_gw190408_181802" role="menuitem">2.17 Gw190408 181802</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.18_gw190412_053044" role="menuitem">2.18 Gw190412 053044</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.19_gw190413_052954" role="menuitem">2.19 Gw190413 052954</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.20_gw190413_134308" role="menuitem">2.20 Gw190413 134308</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.21_gw190421_213856" role="menuitem">2.21 Gw190421 213856</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.22_gw190424_180648" role="menuitem">2.22 Gw190424 180648</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.23_gw190425_081805" role="menuitem">2.23 Gw190425 081805</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.24_gw190503_185404" role="menuitem">2.24 Gw190503 185404</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.25_gw190512_180714" role="menuitem">2.25 Gw190512 180714</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.26_gw190513_205428" role="menuitem">2.26 Gw190513 205428</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.27_gw190514_065416" role="menuitem">2.27 Gw190514 065416</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.28_gw190517_055101" role="menuitem">2.28 Gw190517 055101</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.29_gw190519_153544" role="menuitem">2.29 Gw190519 153544</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.30_gw190521_030229" role="menuitem">2.30 Gw190521 030229</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.31_gw190521_074359" role="menuitem">2.31 Gw190521 074359</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.32_gw190527_092055" role="menuitem">2.32 Gw190527 092055</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.33_gw190602_175927" role="menuitem">2.33 Gw190602 175927</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.34_gw190620_030421" role="menuitem">2.34 Gw190620 030421</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.35_gw190630_185205" role="menuitem">2.35 Gw190630 185205</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.36_gw190701_203306" role="menuitem">2.36 Gw190701 203306</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.37_gw190706_222641" role="menuitem">2.37 Gw190706 222641</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.38_gw190707_093326" role="menuitem">2.38 Gw190707 093326</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.39_gw190708_232457" role="menuitem">2.39 Gw190708 232457</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.40_gw190719_215514" role="menuitem">2.40 Gw190719 215514</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.41_gw190720_000836" role="menuitem">2.41 Gw190720 000836</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.42_gw190725_174728" role="menuitem">2.42 Gw190725 174728</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.43_gw190727_060333" role="menuitem">2.43 Gw190727 060333</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.44_gw190728_064510" role="menuitem">2.44 Gw190728 064510</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.45_gw190731_140936" role="menuitem">2.45 Gw190731 140936</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.46_gw190803_022701" role="menuitem">2.46 Gw190803 022701</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.47_gw190814_211039" role="menuitem">2.47 Gw190814 211039</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.48_gw190828_063405" role="menuitem">2.48 Gw190828 063405</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.49_gw190828_065509" role="menuitem">2.49 Gw190828 065509</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.50_gw190910_112807" role="menuitem">2.50 Gw190910 112807</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.51_gw190915_235702" role="menuitem">2.51 Gw190915 235702</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.52_gw190916_200658" role="menuitem">2.52 Gw190916 200658</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.53_gw190924_021846" role="menuitem">2.53 Gw190924 021846</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.54_gw190925_232845" role="menuitem">2.54 Gw190925 232845</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.55_gw190926_050336" role="menuitem">2.55 Gw190926 050336</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.56_gw190929_012149" role="menuitem">2.56 Gw190929 012149</a></li>
+                
+                    <li role="presentation"><a href="../.././2._priors/2.57_gw190930_133541" role="menuitem">2.57 Gw190930 133541</a></li>
+                
+
+            </ul>
+        </li>
+        
+        <li class="dropdown ">
+            <a href="#" id="drop1" data-toggle="dropdown" class="dropdown-toggle" role="button">3. Posteriors<b class="caret"></b></a>
+            <ul role="menu" class="dropdown-menu" aria-labelledby="drop1">
+                <li role="presentation"><a href="../../3._posteriors" role="menuitem">Summary</a></li>
+                <li class="divider"></li>
+
+                <!-- set subsection counter integer -->
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.01_gw150914_095045" role="menuitem">3.01 Gw150914 095045</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.02_gw151012_095443" role="menuitem">3.02 Gw151012 095443</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.03_gw151226_033853" role="menuitem">3.03 Gw151226 033853</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.04_gw170104_101158" role="menuitem">3.04 Gw170104 101158</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.05_gw170121_212536" role="menuitem">3.05 Gw170121 212536</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.06_gw170202_135657" role="menuitem">3.06 Gw170202 135657</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.07_gw170304_163753" role="menuitem">3.07 Gw170304 163753</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.08_gw170403_230611" role="menuitem">3.08 Gw170403 230611</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.09_gw170608_020116" role="menuitem">3.09 Gw170608 020116</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.10_gw170727_010430" role="menuitem">3.10 Gw170727 010430</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.11_gw170729_185629" role="menuitem">3.11 Gw170729 185629</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.12_gw170809_082821" role="menuitem">3.12 Gw170809 082821</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.13_gw170814_103043" role="menuitem">3.13 Gw170814 103043</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.14_gw170817_124104" role="menuitem">3.14 Gw170817 124104</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.15_gw170818_022509" role="menuitem">3.15 Gw170818 022509</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.16_gw170823_131358" role="menuitem">3.16 Gw170823 131358</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.17_gw190408_181802" role="menuitem">3.17 Gw190408 181802</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.18_gw190412_053044" role="menuitem">3.18 Gw190412 053044</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.19_gw190413_052954" role="menuitem">3.19 Gw190413 052954</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.20_gw190413_134308" role="menuitem">3.20 Gw190413 134308</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.21_gw190421_213856" role="menuitem">3.21 Gw190421 213856</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.22_gw190424_180648" role="menuitem">3.22 Gw190424 180648</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.23_gw190425_081805" role="menuitem">3.23 Gw190425 081805</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.24_gw190503_185404" role="menuitem">3.24 Gw190503 185404</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.25_gw190512_180714" role="menuitem">3.25 Gw190512 180714</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.26_gw190513_205428" role="menuitem">3.26 Gw190513 205428</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.27_gw190514_065416" role="menuitem">3.27 Gw190514 065416</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.28_gw190517_055101" role="menuitem">3.28 Gw190517 055101</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.29_gw190519_153544" role="menuitem">3.29 Gw190519 153544</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.30_gw190521_030229" role="menuitem">3.30 Gw190521 030229</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.31_gw190521_074359" role="menuitem">3.31 Gw190521 074359</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.32_gw190527_092055" role="menuitem">3.32 Gw190527 092055</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.33_gw190602_175927" role="menuitem">3.33 Gw190602 175927</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.34_gw190620_030421" role="menuitem">3.34 Gw190620 030421</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.35_gw190630_185205" role="menuitem">3.35 Gw190630 185205</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.36_gw190701_203306" role="menuitem">3.36 Gw190701 203306</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.37_gw190706_222641" role="menuitem">3.37 Gw190706 222641</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.38_gw190707_093326" role="menuitem">3.38 Gw190707 093326</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.39_gw190708_232457" role="menuitem">3.39 Gw190708 232457</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.40_gw190719_215514" role="menuitem">3.40 Gw190719 215514</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.41_gw190720_000836" role="menuitem">3.41 Gw190720 000836</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.42_gw190725_174728" role="menuitem">3.42 Gw190725 174728</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.43_gw190727_060333" role="menuitem">3.43 Gw190727 060333</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.44_gw190728_064510" role="menuitem">3.44 Gw190728 064510</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.45_gw190731_140936" role="menuitem">3.45 Gw190731 140936</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.46_gw190803_022701" role="menuitem">3.46 Gw190803 022701</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.47_gw190814_211039" role="menuitem">3.47 Gw190814 211039</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.48_gw190828_063405" role="menuitem">3.48 Gw190828 063405</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.49_gw190828_065509" role="menuitem">3.49 Gw190828 065509</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.50_gw190910_112807" role="menuitem">3.50 Gw190910 112807</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.51_gw190915_235702" role="menuitem">3.51 Gw190915 235702</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.52_gw190916_200658" role="menuitem">3.52 Gw190916 200658</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.53_gw190924_021846" role="menuitem">3.53 Gw190924 021846</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.54_gw190925_232845" role="menuitem">3.54 Gw190925 232845</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.55_gw190926_050336" role="menuitem">3.55 Gw190926 050336</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.56_gw190929_012149" role="menuitem">3.56 Gw190929 012149</a></li>
+                
+                    <li role="presentation"><a href="../.././3._posteriors/3.57_gw190930_133541" role="menuitem">3.57 Gw190930 133541</a></li>
+                
+
+            </ul>
+        </li>
+        
+        <li class="dropdown ">
+            <a href="#" id="drop1" data-toggle="dropdown" class="dropdown-toggle" role="button">4. Config Files<b class="caret"></b></a>
+            <ul role="menu" class="dropdown-menu" aria-labelledby="drop1">
+                <li role="presentation"><a href="../../4._config_files" role="menuitem">Summary</a></li>
+                <li class="divider"></li>
+
+                <!-- set subsection counter integer -->
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.01_gw150914_095045" role="menuitem">4.01 Gw150914 095045</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.02_gw151012_095443" role="menuitem">4.02 Gw151012 095443</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.03_gw151226_033853" role="menuitem">4.03 Gw151226 033853</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.04_gw170104_101158" role="menuitem">4.04 Gw170104 101158</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.05_gw170121_212536" role="menuitem">4.05 Gw170121 212536</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.06_gw170202_135657" role="menuitem">4.06 Gw170202 135657</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.07_gw170304_163753" role="menuitem">4.07 Gw170304 163753</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.08_gw170403_230611" role="menuitem">4.08 Gw170403 230611</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.09_gw170608_020116" role="menuitem">4.09 Gw170608 020116</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.10_gw170727_010430" role="menuitem">4.10 Gw170727 010430</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.11_gw170729_185629" role="menuitem">4.11 Gw170729 185629</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.12_gw170809_082821" role="menuitem">4.12 Gw170809 082821</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.13_gw170814_103043" role="menuitem">4.13 Gw170814 103043</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.14_gw170817_124104" role="menuitem">4.14 Gw170817 124104</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.15_gw170818_022509" role="menuitem">4.15 Gw170818 022509</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.16_gw170823_131358" role="menuitem">4.16 Gw170823 131358</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.17_gw190408_181802" role="menuitem">4.17 Gw190408 181802</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.18_gw190412_053044" role="menuitem">4.18 Gw190412 053044</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.19_gw190413_052954" role="menuitem">4.19 Gw190413 052954</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.20_gw190413_134308" role="menuitem">4.20 Gw190413 134308</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.21_gw190421_213856" role="menuitem">4.21 Gw190421 213856</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.22_gw190424_180648" role="menuitem">4.22 Gw190424 180648</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.23_gw190425_081805" role="menuitem">4.23 Gw190425 081805</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.24_gw190503_185404" role="menuitem">4.24 Gw190503 185404</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.25_gw190512_180714" role="menuitem">4.25 Gw190512 180714</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.26_gw190513_205428" role="menuitem">4.26 Gw190513 205428</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.27_gw190514_065416" role="menuitem">4.27 Gw190514 065416</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.28_gw190517_055101" role="menuitem">4.28 Gw190517 055101</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.29_gw190519_153544" role="menuitem">4.29 Gw190519 153544</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.30_gw190521_030229" role="menuitem">4.30 Gw190521 030229</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.31_gw190521_074359" role="menuitem">4.31 Gw190521 074359</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.32_gw190527_092055" role="menuitem">4.32 Gw190527 092055</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.33_gw190602_175927" role="menuitem">4.33 Gw190602 175927</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.34_gw190620_030421" role="menuitem">4.34 Gw190620 030421</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.35_gw190630_185205" role="menuitem">4.35 Gw190630 185205</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.36_gw190701_203306" role="menuitem">4.36 Gw190701 203306</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.37_gw190706_222641" role="menuitem">4.37 Gw190706 222641</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.38_gw190707_093326" role="menuitem">4.38 Gw190707 093326</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.39_gw190708_232457" role="menuitem">4.39 Gw190708 232457</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.40_gw190719_215514" role="menuitem">4.40 Gw190719 215514</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.41_gw190720_000836" role="menuitem">4.41 Gw190720 000836</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.42_gw190725_174728" role="menuitem">4.42 Gw190725 174728</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.43_gw190727_060333" role="menuitem">4.43 Gw190727 060333</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.44_gw190728_064510" role="menuitem">4.44 Gw190728 064510</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.45_gw190731_140936" role="menuitem">4.45 Gw190731 140936</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.46_gw190803_022701" role="menuitem">4.46 Gw190803 022701</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.47_gw190814_211039" role="menuitem">4.47 Gw190814 211039</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.48_gw190828_063405" role="menuitem">4.48 Gw190828 063405</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.49_gw190828_065509" role="menuitem">4.49 Gw190828 065509</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.50_gw190910_112807" role="menuitem">4.50 Gw190910 112807</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.51_gw190915_235702" role="menuitem">4.51 Gw190915 235702</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.52_gw190916_200658" role="menuitem">4.52 Gw190916 200658</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.53_gw190924_021846" role="menuitem">4.53 Gw190924 021846</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.54_gw190925_232845" role="menuitem">4.54 Gw190925 232845</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.55_gw190926_050336" role="menuitem">4.55 Gw190926 050336</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.56_gw190929_012149" role="menuitem">4.56 Gw190929 012149</a></li>
+                
+                    <li role="presentation"><a href="../.././4._config_files/4.57_gw190930_133541" role="menuitem">4.57 Gw190930 133541</a></li>
+                
+
+            </ul>
+        </li>
+        
+        <li class="dropdown ">
+            <a href="#" id="drop1" data-toggle="dropdown" class="dropdown-toggle" role="button">5. Workflow<b class="caret"></b></a>
+            <ul role="menu" class="dropdown-menu" aria-labelledby="drop1">
+                <li role="presentation"><a href="../../5._workflow" role="menuitem">Summary</a></li>
+                <li class="divider"></li>
+
+                <!-- set subsection counter integer -->
+                
+                    <li role="presentation"><a href="../.././5._workflow/5.01_version" role="menuitem">5.01 Version</a></li>
+                
+                    <li role="presentation"><a href="../.././5._workflow/5.02_configuration" role="menuitem">5.02 Configuration</a></li>
+                
+
+            </ul>
+        </li>
+        
+        <li class="dropdown ">
+            <a href="#" id="drop1" data-toggle="dropdown" class="dropdown-toggle" role="button">Sitemap<b class="caret"></b></a>
+            <ul role="menu" class="dropdown-menu" aria-labelledby="drop1">
+                <li role="presentation"><a href="../../sitemap" role="menuitem">Summary</a></li>
+                <li class="divider"></li>
+
+                <!-- set subsection counter integer -->
+                
+
+            </ul>
+        </li>
+        
+
+      </ul>
+    </div>
+  </div>
+</div>
+
+    <div id="main">
+        <div class="container">
+            <div id="content">
+
+                <!-- page name -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>3.46 Gw190803 022701</h1>
+                     </div>
+                </div>
+
+                <!-- set list of files which are handled in wells -->
+                
+                
+                
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                        
+                    
+                
+                
+                <!-- include well if it exists and check meta-data if well renders any files inside it -->
+                
+                    
+                    
+                    
+                    
+                        
+                        
+                        
+                            
+                        
+                        
+                        
+                            <div class=pycbc-meta key="render-function" value="render_tmplt"></div><div class=pycbc-meta key="filenames" value="H1L1V1-PLOT_POSTERIOR_GW190803_022701_MASSES-1126259200-400.png,H1L1V1-PLOT_POSTERIOR_GW190803_022701_SPINS-1126259200-400.png,H1L1V1-PLOT_POSTERIOR_GW190803_022701_EXTRINSIC-1126259200-400.png"></div><!-- add a subtitle -->
+
+
+<!-- hold images inside a well -->
+<div class="scaffold well">
+
+    <!-- set file counter integer -->
+    
+
+    <!-- display formatted files -->
+    
+        <div class="row">
+
+            <!-- two file case -->
+            
+
+            <!-- one file case -->
+            
+                <div class="col-md-12" style="padding-top:20px;">
+                <a name="A1"></a>
+                    
+                    
+                        
+                            
+                                <p class="text-center" style="font-size:18px;">
+                                    <a href="#A1">
+                                    <b>A1. Posteriors</b></p>
+                                    </a>
+                                </p>
+                            
+                            <!--image file condition-->
+
+    <a class="fancybox" href="H1L1V1-PLOT_POSTERIOR_GW190803_022701_MASSES-1126259200-400.png" data-fancybox-group="gallery" title=""><img src="H1L1V1-PLOT_POSTERIOR_GW190803_022701_MASSES-1126259200-400.png" class="img-responsive center-block" alt="" /></a>
+
+<!--html file condition-->
+
+
+<!--always link to file-->
+<a class="btn btn-xs btn-primary" href='H1L1V1-PLOT_POSTERIOR_GW190803_022701_MASSES-1126259200-400.png' target="_blank">Link to File</a>
+
+<!--make a caption to the content -->
+
+    <button type="button" class="btn btn-xs btn-primary"
+            data-toggle="popover" title="Caption" data-placement="bottom"
+            data-content="Posterior probability density functions.">
+            Caption
+    </button>
+
+
+<!--show cmd line if there is one -->
+
+    <button type="button" class="btn btn-xs btn-primary"
+            data-toggle="popover" title="Command Line" data-placement="right"
+            data-content="/work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior --plot-contours --plot-marginal --plot-scatter --z-arg snr --input-file H1L1V1-EXTRACT_POSTERIOR_GW190803_022701-1126259200-400.hdf --output-file H1L1V1-PLOT_POSTERIOR_GW190803_022701_MASSES-1126259200-400.png --parameters srcmass1*(1+redshift):mass1 srcmass2*(1+redshift):mass2 srcmchirp*(1+redshift):mchirp q_from_mass1_mass2(srcmass1, srcmass2):q --plot-prior inference-gw190803_022701.ini">
+            Command Line
+    </button>
+
+                    
+                    
+                </div>
+            
+
+            <!-- increment -->
+            
+
+    </div>
+    
+        <div class="row">
+
+            <!-- two file case -->
+            
+
+            <!-- one file case -->
+            
+                <div class="col-md-12" style="padding-top:20px;">
+                <a name="A2"></a>
+                    
+                    
+                        
+                            
+                                <p class="text-center" style="font-size:18px;">
+                                    <a href="#A2">
+                                    <b>A2. Posteriors</b></p>
+                                    </a>
+                                </p>
+                            
+                            <!--image file condition-->
+
+    <a class="fancybox" href="H1L1V1-PLOT_POSTERIOR_GW190803_022701_SPINS-1126259200-400.png" data-fancybox-group="gallery" title=""><img src="H1L1V1-PLOT_POSTERIOR_GW190803_022701_SPINS-1126259200-400.png" class="img-responsive center-block" alt="" /></a>
+
+<!--html file condition-->
+
+
+<!--always link to file-->
+<a class="btn btn-xs btn-primary" href='H1L1V1-PLOT_POSTERIOR_GW190803_022701_SPINS-1126259200-400.png' target="_blank">Link to File</a>
+
+<!--make a caption to the content -->
+
+    <button type="button" class="btn btn-xs btn-primary"
+            data-toggle="popover" title="Caption" data-placement="bottom"
+            data-content="Posterior probability density functions.">
+            Caption
+    </button>
+
+
+<!--show cmd line if there is one -->
+
+    <button type="button" class="btn btn-xs btn-primary"
+            data-toggle="popover" title="Command Line" data-placement="right"
+            data-content="/work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior --plot-contours --plot-marginal --plot-scatter --z-arg snr --input-file H1L1V1-EXTRACT_POSTERIOR_GW190803_022701-1126259200-400.hdf --output-file H1L1V1-PLOT_POSTERIOR_GW190803_022701_SPINS-1126259200-400.png --parameters spin1_a spin2_a spin1_azimuthal spin2_azimuthal spin1_polar spin2_polar chi_eff chi_p --plot-prior inference-gw190803_022701.ini">
+            Command Line
+    </button>
+
+                    
+                    
+                </div>
+            
+
+            <!-- increment -->
+            
+
+    </div>
+    
+        <div class="row">
+
+            <!-- two file case -->
+            
+
+            <!-- one file case -->
+            
+                <div class="col-md-12" style="padding-top:20px;">
+                <a name="A3"></a>
+                    
+                    
+                        
+                            
+                                <p class="text-center" style="font-size:18px;">
+                                    <a href="#A3">
+                                    <b>A3. Posteriors</b></p>
+                                    </a>
+                                </p>
+                            
+                            <!--image file condition-->
+
+    <a class="fancybox" href="H1L1V1-PLOT_POSTERIOR_GW190803_022701_EXTRINSIC-1126259200-400.png" data-fancybox-group="gallery" title=""><img src="H1L1V1-PLOT_POSTERIOR_GW190803_022701_EXTRINSIC-1126259200-400.png" class="img-responsive center-block" alt="" /></a>
+
+<!--html file condition-->
+
+
+<!--always link to file-->
+<a class="btn btn-xs btn-primary" href='H1L1V1-PLOT_POSTERIOR_GW190803_022701_EXTRINSIC-1126259200-400.png' target="_blank">Link to File</a>
+
+<!--make a caption to the content -->
+
+    <button type="button" class="btn btn-xs btn-primary"
+            data-toggle="popover" title="Caption" data-placement="bottom"
+            data-content="Posterior probability density functions.">
+            Caption
+    </button>
+
+
+<!--show cmd line if there is one -->
+
+    <button type="button" class="btn btn-xs btn-primary"
+            data-toggle="popover" title="Command Line" data-placement="right"
+            data-content="/work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior --plot-contours --plot-marginal --plot-scatter --z-arg snr --input-file H1L1V1-EXTRACT_POSTERIOR_GW190803_022701-1126259200-400.hdf --output-file H1L1V1-PLOT_POSTERIOR_GW190803_022701_EXTRINSIC-1126259200-400.png --parameters ra dec delta_tc inclination distance redshift --plot-prior inference-gw190803_022701.ini">
+            Command Line
+    </button>
+
+                    
+                    
+                </div>
+            
+
+            <!-- increment -->
+            
+
+    </div>
+    
+
+</div>     
+                                                       
+                    
+                
+
+                <hr class="row-divider">
+
+                <!-- display other files in directory -->
+                
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <!-- loop over files in directory -->
+                        <h1>Additional Files</h1>
+                            The following files were also found in this directory:
+                            <div class="row" style="padding:15px">
+                                <button id="collapse-init" class="btn btn-xs btn-primary">Expand All</button>
+                            </div>
+                            
+                            
+                                
+
+                                    <!-- get config file -->
+                                    
+                                    <!-- do not show well.html -->
+                                    
+                                
+                            
+                                
+
+                                    <!-- get config file -->
+                                    
+                                    <!-- do not show well.html -->
+                                    
+                                
+                            
+                                
+
+                                    <!-- get config file -->
+                                    
+                                    <!-- do not show well.html -->
+                                    
+                                
+                            
+                                
+
+                                    <!-- get config file -->
+                                    
+                                    <!-- do not show well.html -->
+                                    
+                                
+                            
+                    </div>
+                </div>
+                
+
+            </div>
+         </div>
+     </div>
+</div>
+
+<footer>
+    <div class="container-fluid">
+        <div class="footer-custom">
+            <a href="../../sitemap/index.html">Sitemap</a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

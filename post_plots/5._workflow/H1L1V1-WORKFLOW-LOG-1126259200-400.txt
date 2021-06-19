@@ -1,0 +1,609 @@
+2021-06-04 09:49:36,291:INFO : Created log file /work/shilpa.kastha/open_catalog/3-ogc_CBCs/inference/new/3-OGC_output/results/5._workflow/H1L1V1-WORKFLOW-LOG-1126259200-400.txt
+2021-06-04 09:49:36,387:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:36,387:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:36,397:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:36,407:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:36,416:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:36,425:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:36,432:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:36,433:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:36,461:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:36,471:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:36,480:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:36,544:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:36,545:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:36,553:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:36,562:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:36,571:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:36,580:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:36,587:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:36,587:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:36,614:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:36,624:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:36,632:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:36,695:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:36,695:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:36,704:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:36,713:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:36,722:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:36,730:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:36,738:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:36,738:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:36,765:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:36,776:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:36,784:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:36,846:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:36,847:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:36,856:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:36,864:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:36,873:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:36,881:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:36,889:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:36,889:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:36,916:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:36,926:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:36,934:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:36,996:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:36,997:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:37,006:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:37,014:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:37,023:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:37,032:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:37,039:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:37,039:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:37,066:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:37,075:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:37,083:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:37,146:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:37,147:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:37,154:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:37,162:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:37,170:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:37,179:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:37,186:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:37,187:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:37,213:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:37,221:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:37,230:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:37,292:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:37,292:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:37,299:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:37,307:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:37,316:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:37,325:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:37,332:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:37,332:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:37,358:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:37,367:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:37,375:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:37,437:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:37,437:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:37,444:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:37,452:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:37,461:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:37,470:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:37,477:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:37,477:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:37,503:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:37,512:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:37,520:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:37,582:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:37,582:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:37,589:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:37,598:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:37,606:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:37,615:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:37,622:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:37,622:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:37,649:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:37,657:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:37,666:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:37,728:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:37,729:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:37,736:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:37,745:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:37,753:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:37,762:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:37,769:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:37,769:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:37,846:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:37,857:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:37,866:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:37,928:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:37,928:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:37,935:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:37,944:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:37,952:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:37,965:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:37,973:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:37,973:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:38,000:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:38,009:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:38,018:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:38,080:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:38,081:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:38,090:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:38,099:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:38,107:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:38,116:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:38,124:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:38,124:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:38,151:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:38,161:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:38,170:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:38,231:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:38,232:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:38,240:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:38,249:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:38,257:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:38,265:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:38,272:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:38,273:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:38,299:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:38,309:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:38,318:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:38,380:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:38,380:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:38,389:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:38,397:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:38,406:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:38,415:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:38,422:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:38,422:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:38,450:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:38,459:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:38,468:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:38,530:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:38,530:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:38,537:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:38,546:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:38,555:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:38,563:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:38,571:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:38,571:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:38,598:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:38,607:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:38,616:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:38,678:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:38,678:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:38,685:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:38,694:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:38,702:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:38,711:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:38,718:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:38,718:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:38,744:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:38,753:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:38,761:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:38,823:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:38,823:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:38,832:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:38,841:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:38,849:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:38,858:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:38,867:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:38,868:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:38,895:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:38,904:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:38,913:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:38,974:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:38,975:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:38,981:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:38,990:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:38,998:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:39,007:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:39,014:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:39,015:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:39,041:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:39,049:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:39,058:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:39,121:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:39,122:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:39,130:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:39,139:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:39,148:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:39,156:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:39,163:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:39,164:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:39,190:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:39,199:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:39,208:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:39,269:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:39,269:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:39,276:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:39,285:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:39,293:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:39,302:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:39,309:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:39,309:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:39,335:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:39,344:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:39,353:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:39,419:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:39,419:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:39,427:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:39,436:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:39,444:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:39,453:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:39,463:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:39,463:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:39,491:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:39,499:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:39,508:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:39,574:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:39,575:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:39,584:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:39,593:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:39,603:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:39,614:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:39,623:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:39,623:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:39,651:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:39,662:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:39,672:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:39,740:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:39,740:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:39,749:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:39,760:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:39,769:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:39,780:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:39,789:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:39,790:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:39,817:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:39,828:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:39,838:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:39,904:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:39,904:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:39,913:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:39,923:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:39,933:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:39,943:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:39,953:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:39,953:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:39,981:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:39,992:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:40,002:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:40,067:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:40,067:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:40,076:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:40,086:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:40,097:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:40,108:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:40,117:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:40,118:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:40,146:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:40,158:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:40,168:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:40,233:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:40,233:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:40,242:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:40,253:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:40,263:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:40,274:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:40,283:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:40,284:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:40,313:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:40,324:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:40,335:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:40,402:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:40,402:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:40,411:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:40,421:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:40,432:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:40,443:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:40,452:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:40,453:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:40,482:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:40,493:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:40,504:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:40,571:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:40,571:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:40,580:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:40,591:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:40,601:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:40,611:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:40,620:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:40,620:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:40,650:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:40,662:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:40,672:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:40,736:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:40,737:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:40,746:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:40,756:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:40,766:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:40,777:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:40,785:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:40,785:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:40,818:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:40,829:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:40,839:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:40,905:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:40,905:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:40,914:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:40,925:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:40,935:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:40,944:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:40,953:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:40,954:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:40,982:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:40,993:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:41,003:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:41,069:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:41,069:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:41,078:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:41,087:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:41,097:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:41,108:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:41,117:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:41,118:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:41,146:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:41,157:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:41,167:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:41,233:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:41,233:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:41,242:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:41,253:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:41,263:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:41,274:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:41,282:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:41,283:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:41,312:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:41,323:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:41,334:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:41,400:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:41,400:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:41,409:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:41,420:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:41,430:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:41,441:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:41,451:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:41,451:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:41,481:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:41,492:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:41,503:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:41,569:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:41,570:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:41,578:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:41,589:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:41,600:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:41,611:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:41,620:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:41,620:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:41,650:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:41,661:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:41,672:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:41,738:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:41,738:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:41,747:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:41,757:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:41,768:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:41,778:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:41,787:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:41,787:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:41,818:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:41,829:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:41,839:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:41,905:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:41,906:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:41,914:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:41,924:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:41,934:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:41,945:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:41,954:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:41,955:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:41,983:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:41,994:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:42,005:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:42,071:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:42,072:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:42,081:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:42,090:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:42,100:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:42,111:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:42,119:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:42,120:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:42,148:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:42,159:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:42,170:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:42,236:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:42,236:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:42,245:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:42,255:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:42,266:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:42,276:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:42,284:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:42,285:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:42,313:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:42,324:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:42,334:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:42,399:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:42,399:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:42,408:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:42,418:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:42,428:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:42,438:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:42,447:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:42,447:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:42,477:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:42,488:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:42,499:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:42,565:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:42,566:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:42,575:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:42,585:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:42,596:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:42,606:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:42,615:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:42,616:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:42,644:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:42,655:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:42,666:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:42,733:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:42,733:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:42,742:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:42,753:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:42,764:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:42,775:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:42,784:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:42,785:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:42,814:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:42,825:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:42,836:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:42,902:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:42,903:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:42,912:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:42,922:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:42,933:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:42,944:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:42,954:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:42,954:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:42,983:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:42,995:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:43,007:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:43,073:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:43,074:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:43,083:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:43,092:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:43,103:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:43,113:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:43,123:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:43,123:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:43,153:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:43,164:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:43,174:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:43,239:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:43,239:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:43,249:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:43,258:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:43,269:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:43,280:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:43,289:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:43,289:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:43,319:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:43,332:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:43,341:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:43,406:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:43,407:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:43,416:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:43,425:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:43,436:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:43,446:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:43,454:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:43,455:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:43,484:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:43,494:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:43,505:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:43,570:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:43,571:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:43,579:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:43,589:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:43,599:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:43,609:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:43,618:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:43,619:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:43,648:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:43,659:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:43,670:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:43,736:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:43,737:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:43,746:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:43,756:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:43,767:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:43,778:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:43,787:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:43,788:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:43,817:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:43,828:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:43,839:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:43,905:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:43,905:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:43,914:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:43,925:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:43,936:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:43,946:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:43,956:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:43,956:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:43,985:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:43,997:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:44,009:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:44,105:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:44,106:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:44,115:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:44,127:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:44,139:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:44,150:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:44,160:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:44,161:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:44,191:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:44,202:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:44,212:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:44,278:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:44,278:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:44,288:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:44,297:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:44,308:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:44,318:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:44,328:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:44,328:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:44,357:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:44,368:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:44,378:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:44,443:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:44,444:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:44,453:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:44,463:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:44,474:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:44,485:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:44,494:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:44,494:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:44,522:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:44,533:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:44,544:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:44,608:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:44,609:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:44,618:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:44,628:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:44,638:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:44,648:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:44,657:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:44,657:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:44,689:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:44,700:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:44,710:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:44,774:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:44,775:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:44,783:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:44,795:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:44,805:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:44,816:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:44,825:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:44,825:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:44,855:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:44,866:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:44,877:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:44,945:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:44,945:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:44,954:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:44,965:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:44,976:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:44,987:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:44,996:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:44,996:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:45,025:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:45,040:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:45,051:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:45,117:WARNING : warning: config file is missing section [extract_posterior]
+2021-06-04 09:49:45,118:INFO : Using extract_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_extract_samples on site local
+2021-06-04 09:49:45,127:INFO : Using table_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_table_summary on site local
+2021-06-04 09:49:45,137:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:45,148:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:45,159:INFO : Using plot_posterior_summary executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:45,169:WARNING : warning: config file is missing section [plot_prior]
+2021-06-04 09:49:45,169:INFO : Using plot_prior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_prior on site local
+2021-06-04 09:49:45,198:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:45,209:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:45,220:INFO : Using plot_posterior executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_inference_plot_posterior on site local
+2021-06-04 09:49:45,263:INFO : Entering versioning module
+2021-06-04 09:50:12,373:INFO : Leaving versioning module
+2021-06-04 09:50:12,375:INFO : Using results_page executable at /work/shilpa.kastha/src/3_ogc/pycbc/bin/pycbc_make_html_page on site local
