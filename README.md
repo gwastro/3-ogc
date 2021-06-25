@@ -5,6 +5,8 @@
 <sub>2. Leibniz Universitat Hannover, D-30167 Hannover, Germany</sub>  
 <sub>3. Department of Physics and Astronomy, The University of British Columbia, Vancouver, BC V6T 1Z4, Canada </sub>
 
+![](https://github.com/gwastro/3-ogc/blob/master/3ogc.png)
+
 ## Introduction
 
 We present the third Open Gravitational-wave Catalog (3-OGC) of compact-binary coalescences,
