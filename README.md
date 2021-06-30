@@ -87,7 +87,7 @@ catalog_high = h5py.File('./3-OGC_low.hdf', 'r')
 
 # Selecting parts of the catalog
 region = candidates['mass1'][:] + candidates['mass2'][:] < 4
-lowmass_snr = all_candidates['H1_snr'][:][region]
+lowmass_snr = candidates['H1_snr'][:][region]
 ```
 
 
