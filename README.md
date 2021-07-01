@@ -1,5 +1,5 @@
 # 3-OGC: Catalog of gravitational-waves from compact-binary mergers
-** Alexander H. Nitz <sup>1,2</sup>, Collin D. Capano<sup>1,2</sup>, Sumit Kumar<sup>1,2</sup>, Yi-Fan Wang<sup>1,2</sup>, Shilpa Kastha<sup>1,2</sup>, Marlin Schaefer<sup>1,2</sup>, Rahul Dhurkunde<sup>1,2</sup>, and Miriam Cabero<sup>3</sup> **
+**Alexander H. Nitz <sup>1,2</sup>, Collin D. Capano<sup>1,2</sup>, Sumit Kumar<sup>1,2</sup>, Yi-Fan Wang<sup>1,2</sup>, Shilpa Kastha<sup>1,2</sup>, Marlin Schaefer<sup>1,2</sup>, Rahul Dhurkunde<sup>1,2</sup>, and Miriam Cabero<sup>3</sup>**
 
 <sub>1. [Albert-Einstein-Institut, Max-Planck-Institut for Gravitationsphysik, D-30167 Hannover, Germany](http://www.aei.mpg.de/obs-rel-cos)</sub>  
 <sub>2. Leibniz Universitat Hannover, D-30167 Hannover, Germany</sub>  
@@ -67,7 +67,8 @@ Provided parameters are:
  * `coa_phase`: The coalescence phase of the binary system.
  * `loglikelihood`: The natural log of the likelihood of each sample.
 
-For GW190521_030229, uniform prior in source frame total mass and mass ratio `q` is used. A [script](https://github.com/gwastro/3-ogc/blob/master/scripts/reweight_samples.py) is used to reweight the samples to a prior uniform in component masses. For this particular event, we provide posterior files and config files for another set of run where localization (ra,dec,distance) is fixed in accordance with possible coincidence with accretion flare by the Zwicky Transient Facility (ZTF). See this [paper](https://arxiv.org/abs/2010.12558) for more detail.
+For GW190521_030229, a uniform prior in source frame total mass and mass ratio `q` is used. A [script](https://github.com/gwastro/3-ogc/blob/master/scripts/reweight_samples.py) is used to reweight the samples to a prior uniform in component masses. For this particular event, we provide posterior files and config files for another set of runs where localization (ra, dec, distance) is fixed in accordance with possible coincidence with an accretion flare found by the Zwicky Transient Facility (ZTF). See this [paper](https://arxiv.org/abs/2010.12558) for more detail.
+
 ## Catalog of Merger Candidates (including sub-threshold candidates) ##
 
 ### Analysis Details ###
