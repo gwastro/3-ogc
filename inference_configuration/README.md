@@ -1,0 +1,1 @@
+The gravitational-wave data in L1 detector for GW170817 contains a glitch, and LVK collaboration does not release the deglitched data. Therefore we use the deglitched data in [here](https://github.com/sugwg/gw170817-eft-eos/tree/master/frame_data). For other events with a glitch, we use the deglitched data from [DCC](https://dcc.ligo.org) whenever is possible.
